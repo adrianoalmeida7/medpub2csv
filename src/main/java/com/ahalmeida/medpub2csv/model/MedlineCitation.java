@@ -10,6 +10,8 @@ public class MedlineCitation {
 	private Date dateCreated;
 	private Date dateCompleted;
 
+	private Article article;
+
 	private String citationSubSet;
 	private MedLineJournalInfo medLineJournalInfo;
 	private List<MeshHeading> meshHeading;
