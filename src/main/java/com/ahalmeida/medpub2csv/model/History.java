@@ -3,13 +3,13 @@ package com.ahalmeida.medpub2csv.model;
 import java.util.List;
 
 public class History {
-	private List<PubMedPubDate> pubMedPubDate;
+	private List<Date> pubMedPubDate;
 
-	public List<PubMedPubDate> getPubMedPubDate() {
+	public List<Date> getPubMedPubDate() {
 		return pubMedPubDate;
 	}
 
-	public void setPubMedPubDate(List<PubMedPubDate> pubMedPubDate) {
+	public void setPubMedPubDate(List<Date> pubMedPubDate) {
 		this.pubMedPubDate = pubMedPubDate;
 	}
 
